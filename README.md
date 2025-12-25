@@ -1,6 +1,8 @@
-# SPE Study: Structured Preference Elicitation for AI Alignment in Education
+# How AI Systems Think About Education: Analyzing Latent Preference Patterns in Large Language Models
 
 <div align="center">
+
+**Daniel Autenrieth (2025)**
 
 📄 **[Read the full paper on Zenodo](https://zenodo.org/records/18056112)**
 
@@ -8,17 +10,19 @@
 
 </div>
 
-This repository contains supplementary materials for the paper:
+---
 
-> **How AI Systems Think About Education: Analyzing Latent Preference Patterns in Large Language Models**  
-> *Daniel Autenrieth (2025)*
+This repository contains supplementary materials including data, code, and analysis for the paper.
 
-### 📊 Key Findings
+## Abstract
 
-- **99.78% transitivity** in GPT-5.1's educational preferences
-- **92.79% model accuracy** in Thurstonian utility prediction
-- Strong alignment with humanistic educational principles
-- Coherent positions in normatively contested domains
+This paper presents the first systematic measurement of educational alignment in Large Language Models. Using a Delphi-validated instrument comprising 48 items across eight educational-theoretical dimensions, the study reveals that GPT-5.1 exhibits highly coherent preference patterns (99.78% transitivity; 92.79% model accuracy) that largely align with humanistic educational principles where expert consensus exists. 
+
+Crucially, divergences from expert opinion occur precisely in domains of normative disagreement among human experts themselves, particularly emotional dimensions and epistemic normativity. This raises a fundamental question for alignment research: **When human values are contested, what should models be aligned to?** 
+
+The findings demonstrate that GPT-5.1 does not remain neutral in contested domains but adopts coherent positions, prioritizing emotional responsiveness and rejecting false balance. The methodology, combining Delphi consensus-building with Structured Preference Elicitation and Thurstonian Utility modeling, provides a replicable framework for domain-specific alignment evaluation beyond generic value benchmarks.
+
+**Keywords:** Large Language Models, AI Alignment, Educational Theory, Structured Preference Elicitation, Thurstonian Utility Model, Value Systems, Preference Coherence
 
 ---
 
@@ -132,10 +136,13 @@ Respond only with 'A' or 'B'.
 ## Citation
 
 ```bibtex
-@article{autenrieth2025spe,
+@misc{autenrieth2025spe,
   title={How AI Systems Think About Education: Analyzing Latent Preference Patterns in Large Language Models},
   author={Autenrieth, Daniel},
-  year={2025}
+  year={2025},
+  publisher={Zenodo},
+  doi={10.5281/zenodo.18056112},
+  url={https://doi.org/10.5281/zenodo.18056112}
 }
 ```
 
